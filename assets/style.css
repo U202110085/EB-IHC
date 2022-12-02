@@ -1,0 +1,116 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    color: #371f17;
+}
+
+h2, h3, h4, h5, h6 {
+    color: #c76838;
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+    color:  #8d3113;
+}
+ul {
+    list-style-type: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;;
+}
+
+.btnColor {
+    background-color:#8d3113;
+    color: #f7f7f7;
+}
+
+.divText {
+    width: 80%;
+    padding: 20px;
+    margin: 0 auto;
+    border: 1px solid #371f17;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+}
+
+.imgApp {
+    width: 70%;
+    height: auto;
+    border-radius: 5px;
+    display: block;
+    margin:auto;
+}
+
+.bdAll {
+    height: 100%;
+}
+
+.btn1 {
+    background-color:#8d3113 !important;
+    border: none !important;
+}
+
+.btn1:hover {
+    background-color: #c76838 !important;
+    border: none !important;
+}
+
+.mt {
+    margin-top: 10%;
+}
+
+.navbar {
+    background-color: #c76838 !important;
+}
+
+.zerotwo {
+    font-size: 2.5em;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 0 0 0.5em;
+}
+
+.money {
+    font-size: 1.5em;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 2rem auto;
+    color: forestgreen;
+    border: 3px solid forestgreen;
+    border-radius: 5px;
+    width: 200px;
+    padding: 1rem;
+    overflow-x: visible;
+}
+
+.col-md {
+    padding: 1rem;
+}
+
+.money:hover {
+    color: white;
+    background-color: forestgreen;
+    transition: 0.5s;
+}
+
+@media only screen and (min-height: 600px) {
+    .message {
+        display: none;
+    }
+}
+
+@media only screen and (max-height: 600px) {
+    .container {
+        display: none;
+    }
+    .message {
+        display: block;
+        text-align: center;
+        margin: 5rem;
+    }
+}
